@@ -6,7 +6,7 @@ import dotenv
 dotenv.load_dotenv()
 mcp = FastMCP("My MCP Server")
 
-@mcp.tool()
+@mcp.tool() 
 def get_companycode()-> str:
     """
     Fetch company code
