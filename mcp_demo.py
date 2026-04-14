@@ -18,6 +18,26 @@ def get_companycode()-> str:
     """
     return "#123456"
 
+@mcp.tool() 
+def get_ABCcode()-> str:
+    """
+    Fetch ABC code    
+    Args: None        
+    Returns:
+        str: ABC code
+    """
+    return "#ABC123"
+
+@mcp.tool() 
+def get_XYZcode()-> str:
+    """
+    Fetch XYZ code    
+    Args: None        
+    Returns:
+        str: XYZ code
+    """
+    return "#XYZ123"
+
 @mcp.tool()
 def get_MCPcode()-> str:
     """
