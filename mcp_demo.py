@@ -36,7 +36,7 @@ def get_XYZcode()-> str:
     Returns:
         str: XYZ code
     """
-    return "#XYZ123"
+    return "#XYZ1234"
 
 @mcp.tool()
 def get_MCPcode()-> str:
