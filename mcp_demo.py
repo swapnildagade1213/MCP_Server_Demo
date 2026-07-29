@@ -51,4 +51,8 @@ def get_MCPcode()-> str:
     return "MCP#123@456"
 
 if __name__ == "__main__":
-     mcp.run()
+    mcp.run(
+        transport="streamable-http",
+        host="127.0.0.1",
+        port=3000,
+    )
